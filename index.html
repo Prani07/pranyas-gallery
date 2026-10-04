@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3ed">
+  <meta name="description" content="Discover Pranita’s paintings, portraits, sketches and illustrations at Pranya’s Stuff. Explore the gallery and enquire about custom artwork.">
+  <title>Pranya’s Stuff — Paintings, portraits & little stories</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preload" as="image" href="assets/art-23-960.webp">
+  <script src="artworks.js" defer></script>
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="#home" aria-label="Pranya’s Stuff home"><span class="brand-mark" aria-hidden="true">p.</span><span>pranya’s stuff<small>THE ART GALLERY</small></span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+  <nav id="navigation" aria-label="Main navigation"><a href="#gallery">The collection</a><a href="#studio">Behind the art</a><a href="#contact" class="nav-contact">Let’s create together <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="main">
+  <section class="hero section-wrap" id="home" aria-labelledby="hero-title">
+    <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> PAINTINGS · PORTRAITS · LITTLE STORIES</p><h1 id="hero-title">A little colour.<br>A little wonder.<br><em>A lot of heart.</em></h1><p class="intro">Welcome to Pranita’s art gallery. A collection of vivid paintings, thoughtful sketches and small moments made to be remembered.</p><a class="button" href="#gallery">Explore the collection <span aria-hidden="true">↓</span></a><a class="text-link" href="#contact">Have something in mind? Let’s talk ↗</a><div class="hero-note"><span aria-hidden="true">✳</span> Open for custom paintings & portraits</div></div>
+    <figure class="hero-art"><div class="hero-frame"><img src="assets/art-23-960.webp" srcset="assets/art-23-480.webp 480w, assets/art-23-960.webp 960w, assets/art-23-1600.webp 1600w" sizes="(max-width: 760px) 85vw, 44vw" width="960" height="1280" alt="A colourful peacock painting with blue and green feathers and a vibrant floral background" fetchpriority="high"></div><figcaption><span>IN THE SPOTLIGHT</span><strong>Peacock in bloom</strong><a href="#gallery" aria-label="Explore Peacock in bloom in the collection">↗</a></figcaption><span class="art-stamp" aria-hidden="true">Made<br>with heart</span></figure>
+  </section>
+  <div class="collection-ribbon" aria-hidden="true"><span>Colour that tells a story</span><span>✳</span><span>Art that feels like you</span><span>✳</span><span>Little details. Big feelings.</span><span>✳</span></div>
+  <section id="gallery" class="section-wrap collection" aria-labelledby="collection-title">
+    <div class="section-heading"><div><p class="eyebrow">01 / THE COLLECTION</p><h2 id="collection-title">Find your little<br><em>piece of wonder.</em></h2></div><p>From bold colour to quiet pencil lines.<br>Take your time. Look a little closer.</p></div>
+    <div class="gallery-tools"><div class="filters" role="group" aria-label="Filter artworks by category"><button data-category="All" aria-pressed="true">All works</button><button data-category="Nature" aria-pressed="false">Nature</button><button data-category="Landscape" aria-pressed="false">Landscapes</button><button data-category="Portrait" aria-pressed="false">Portraits</button><button data-category="Sketch" aria-pressed="false">Sketches</button><button data-category="Illustration" aria-pressed="false">Illustrations</button><button data-category="Painting" aria-pressed="false">Paintings</button></div><div class="search"><label class="sr-only" for="search">Search artworks</label><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find an artwork…" autocomplete="off"></div></div>
+    <div class="results-bar"><p id="results" role="status" aria-live="polite"></p><button id="reset" class="text-button" hidden>Clear filters</button></div>
+    <div id="artworks" class="gallery-grid"></div>
+    <div id="empty" class="empty" hidden><h3>No artworks found</h3><p>Try another search or explore the whole collection.</p><button class="button" id="empty-reset">Show all works</button></div>
+    <noscript><p>The interactive collection needs JavaScript. Here are a few works to explore:</p><div class="fallback"><img src="assets/art-38-960.webp" alt="Pink flowers in a teal vase" loading="lazy"><img src="assets/art-30-960.webp" alt="Colourful evening painting" loading="lazy"><img src="assets/art-15-960.webp" alt="Expressive painted portrait" loading="lazy"></div></noscript>
+    <p class="collection-note">Display titles describe the artworks. For details, availability or commissions, please get in touch.</p>
+  </section>
+  <section class="studio section-wrap" id="studio" aria-labelledby="studio-title"><div class="studio-image"><img src="assets/art-38-960.webp" width="720" height="960" alt="A painting of pink flowers arranged in a teal vase, photographed against a blue background" loading="lazy" decoding="async"></div><div class="studio-copy"><p class="eyebrow">02 / BEHIND THE ART</p><h2 id="studio-title">Small details.<br><em>Personal stories.</em></h2><p>Welcome to my art gallery. Here you’ll find paintings, portraits, illustrations and sketches — from vibrant nature-inspired pieces to expressive faces and familiar characters.</p><p>A painting can bring a little beauty, grace and harmony to a space. A portrait can hold on to a moment. Browse the collection for inspiration, or share an idea for a piece of your own.</p><a class="text-link" href="https://www.instagram.com/pranyas_stuff" target="_blank" rel="noopener noreferrer">More from the studio on Instagram ↗<span class="sr-only"> (opens a new tab)</span></a></div></section>
+  <section class="contact section-wrap" id="contact" aria-labelledby="contact-title"><p class="eyebrow">03 / SOMETHING JUST FOR YOU</p><h2 id="contact-title">Your idea.<br><em>A canvas of possibilities.</em></h2><p>Have a favourite memory, a face you love, or a painting in mind?<br>I’d love to hear from you. Custom paintings and portraits are welcome.</p><div class="contact-actions"><a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdVVMvs61BqLrUxpvfxfITK08m7VUzN45wQO6gJo6q1XqhbWw/viewform" target="_blank" rel="noopener noreferrer">Start an enquiry ↗<span class="sr-only"> (opens Google Forms in a new tab)</span></a><a class="text-link" href="https://www.instagram.com/pranyas_stuff" target="_blank" rel="noopener noreferrer">Say hello on Instagram ↗<span class="sr-only"> (opens a new tab)</span></a></div><p class="contact-note">Share your idea, preferred size and any reference images in the enquiry form.</p></section>
+</main>
+<footer class="section-wrap"><a class="brand footer-brand" href="#home">pranya’s stuff</a><p>© <span id="year">2026</span> Pranya’s Stuff. All rights reserved.</p><a href="#home">Back to top ↑</a></footer>
+<dialog id="viewer" aria-labelledby="viewer-title" aria-describedby="viewer-description"><div class="viewer-top"><span class="eyebrow">A CLOSER LOOK</span><button id="close-viewer" aria-label="Close artwork viewer">Close ×</button></div><div class="viewer-content"><div class="viewer-image"><img id="viewer-image" alt=""></div><div class="viewer-info"><p id="viewer-category" class="eyebrow"></p><h2 id="viewer-title"></h2><p id="viewer-description"></p><a class="button" href="#contact" id="enquire">Enquire about this work ↗</a><p class="viewer-note">Ask about availability, size or a custom piece inspired by this artwork.</p><div class="viewer-controls"><button id="previous" aria-label="View previous artwork">← Previous</button><span id="viewer-count" aria-live="polite"></span><button id="next" aria-label="View next artwork">Next →</button></div></div></div></dialog>
+</body>
+</html>

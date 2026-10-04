@@ -1,0 +1,263 @@
+window.ARTWORKS = [
+  {
+    "id": "art-23",
+    "title": "Peacock in bloom",
+    "category": "Nature",
+    "description": "A vivid peacock surrounded by a joyful wash of colour. Beauty, grace and harmony in every feather.",
+    "source": "IMG20251010152716~3.jpg",
+    "width": 2365,
+    "height": 3154
+  },
+  {
+    "id": "art-38",
+    "title": "Flowers in blue",
+    "category": "Nature",
+    "description": "Pink blossoms gathered in a teal vase against a richly textured blue background.",
+    "source": "IMG_20250807_192208.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-30",
+    "title": "An evening together",
+    "category": "Landscape",
+    "description": "Warm lamplight, colourful trees and figures walking into a glowing evening.",
+    "source": "IMG20251205121337.jpg",
+    "width": 4096,
+    "height": 3072
+  },
+  {
+    "id": "art-16",
+    "title": "Under a starry sky",
+    "category": "Landscape",
+    "description": "A single golden streetlamp beneath a deep blue sky scattered with stars.",
+    "source": "IMG20250815173357.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-19",
+    "title": "A garden of roses",
+    "category": "Nature",
+    "description": "Soft roses and a tapestry of flowers in pink, violet and green.",
+    "source": "IMG20250821154959.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-15",
+    "title": "A little joy",
+    "category": "Portrait",
+    "description": "An expressive painted portrait, full of warmth and personality.",
+    "source": "IMG20250814144311.jpg",
+    "width": 4096,
+    "height": 3072
+  },
+  {
+    "id": "art-21",
+    "title": "A familiar face",
+    "category": "Portrait",
+    "description": "A playful, closely observed black-and-white portrait.",
+    "source": "IMG20250914173322.jpg",
+    "width": 2304,
+    "height": 4096
+  },
+  {
+    "id": "art-02",
+    "title": "The smallest bloom",
+    "category": "Illustration",
+    "description": "A wide-eyed character holding a white flower against a green backdrop.",
+    "source": "IMG20250208151303.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-31",
+    "title": "Forest companions",
+    "category": "Illustration",
+    "description": "Gentle woodland characters shelter beneath mushroom umbrellas.",
+    "source": "IMG_20250705_163058.jpg",
+    "width": 3527,
+    "height": 2645
+  },
+  {
+    "id": "art-11",
+    "title": "The wandering wizard",
+    "category": "Illustration",
+    "description": "A green-cloaked character with a pointed hat and a little spark of magic.",
+    "source": "IMG20250711134829.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-14",
+    "title": "Lotus on the water",
+    "category": "Nature",
+    "description": "A bright pink lotus set against flowing shapes of blue, green and yellow.",
+    "source": "IMG20250807191011.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-18",
+    "title": "Golden devotion",
+    "category": "Painting",
+    "description": "A seated devotional figure framed by a luminous golden halo.",
+    "source": "IMG20250820183348.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-25",
+    "title": "Among the blossoms",
+    "category": "Nature",
+    "description": "A bee resting among delicate blue and violet flowers.",
+    "source": "IMG20251011181921.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-01",
+    "title": "A moment in the city",
+    "category": "Sketch",
+    "description": "A detailed pencil scene capturing everyday life in a city.",
+    "source": "IMG20241206003542.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-03",
+    "title": "The scooter rider",
+    "category": "Sketch",
+    "description": "A character study in pencil with a vintage scooter.",
+    "source": "IMG20250522122406.jpg",
+    "width": 3072,
+    "height": 3072
+  },
+  {
+    "id": "art-04",
+    "title": "Ready for adventure",
+    "category": "Sketch",
+    "description": "A cheerful character in round goggles, rendered in expressive pencil lines.",
+    "source": "IMG20250522122429.jpg",
+    "width": 3072,
+    "height": 3072
+  },
+  {
+    "id": "art-05",
+    "title": "Rhythm and devotion",
+    "category": "Sketch",
+    "description": "A devotional sketch featuring a figure seated above a drum.",
+    "source": "IMG20250531180616.jpg",
+    "width": 3072,
+    "height": 3072
+  },
+  {
+    "id": "art-06",
+    "title": "Quiet concentration",
+    "category": "Sketch",
+    "description": "An expressive pencil study of a young character in a cap.",
+    "source": "IMG20250623161745.jpg",
+    "width": 1836,
+    "height": 4096
+  },
+  {
+    "id": "art-07",
+    "title": "A thoughtful gaze",
+    "category": "Sketch",
+    "description": "A monochrome character portrait with carefully shaded clothing and hair.",
+    "source": "IMG20250623165138.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-12",
+    "title": "A quiet corner",
+    "category": "Sketch",
+    "description": "A pencil study of a cat resting beside a bookshelf.",
+    "source": "IMG20250722181952.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-26",
+    "title": "A playful pose",
+    "category": "Sketch",
+    "description": "A character captured mid-gesture with energetic, flowing lines.",
+    "source": "IMG20251115155509.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-27",
+    "title": "A figure in detail",
+    "category": "Sketch",
+    "description": "An intricate line study of a standing figure and decorative details.",
+    "source": "IMG20251115164140.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-28",
+    "title": "A tiny keepsake",
+    "category": "Portrait",
+    "description": "A miniature painted portrait presented inside a small wooden frame.",
+    "source": "IMG20251118180222.jpg",
+    "width": 3072,
+    "height": 4096
+  },
+  {
+    "id": "art-32",
+    "title": "Stories on a page",
+    "category": "Illustration",
+    "description": "An illustrated sequence of everyday moments, brought to life with colour.",
+    "source": "IMG_20250712_145029.jpg",
+    "width": 4096,
+    "height": 3072
+  },
+  {
+    "id": "art-34",
+    "title": "Little heroes: Spider-Man",
+    "category": "Illustration",
+    "description": "A playful red-and-blue character cutout.",
+    "source": "IMG_20250729_133018.jpg",
+    "width": 1121,
+    "height": 1993
+  },
+  {
+    "id": "art-35",
+    "title": "Little heroes: Iron Man",
+    "category": "Illustration",
+    "description": "A bright red-and-gold character cutout.",
+    "source": "IMG_20250729_133032.jpg",
+    "width": 1069,
+    "height": 1900
+  },
+  {
+    "id": "art-36",
+    "title": "A little magic",
+    "category": "Illustration",
+    "description": "A bespectacled character with a wand, in a playful cutout style.",
+    "source": "IMG_20250729_133047.jpg",
+    "width": 1124,
+    "height": 1998
+  },
+  {
+    "id": "art-37",
+    "title": "The wise wizard",
+    "category": "Illustration",
+    "description": "A blue-hatted wizard with a flowing white beard.",
+    "source": "IMG_20250729_133100.jpg",
+    "width": 1321,
+    "height": 2348
+  },
+  {
+    "id": "art-39",
+    "title": "Familiar friends",
+    "category": "Illustration",
+    "description": "A collection of colourful character cutouts with expressive faces.",
+    "source": "IMG_20250809_141018.jpg",
+    "width": 2074,
+    "height": 2746
+  }
+];
